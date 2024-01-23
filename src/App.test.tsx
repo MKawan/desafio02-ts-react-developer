@@ -1,9 +1,12 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import {WelcomeLogin} from "./hooks/welcomeLogin/index";
+describe("WelcomeLogin", () => {
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  const mockAlert = jest.fn()
+  window.alert = mockAlert
+
+  it("deve exibir alert com Welcome(bem vindo)", () =>{
+
+    WelcomeLogin()
+    expect(mockAlert).toBeCalledWith('Welcome')
+  })
+}) 
