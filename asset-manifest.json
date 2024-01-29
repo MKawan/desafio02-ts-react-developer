@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/desafio02-ts-react-developer/static/css/main.abc58c36.css",
+    "main.js": "/desafio02-ts-react-developer/static/js/main.5260cf86.js",
+    "static/js/787.6ce64ce2.chunk.js": "/desafio02-ts-react-developer/static/js/787.6ce64ce2.chunk.js",
+    "static/media/my_photo.jpeg": "/desafio02-ts-react-developer/static/media/my_photo.2d4da2fe0231491a5631.jpeg",
+    "static/media/logoDio.png": "/desafio02-ts-react-developer/static/media/logoDio.5809debb1e27ff86dcec.png",
+    "static/media/Mastercard-Logo.png": "/desafio02-ts-react-developer/static/media/Mastercard-Logo.732eb1f5493920ca2509.png",
+    "index.html": "/desafio02-ts-react-developer/index.html",
+    "main.abc58c36.css.map": "/desafio02-ts-react-developer/static/css/main.abc58c36.css.map",
+    "main.5260cf86.js.map": "/desafio02-ts-react-developer/static/js/main.5260cf86.js.map",
+    "787.6ce64ce2.chunk.js.map": "/desafio02-ts-react-developer/static/js/787.6ce64ce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abc58c36.css",
+    "static/js/main.5260cf86.js"
+  ]
+}
