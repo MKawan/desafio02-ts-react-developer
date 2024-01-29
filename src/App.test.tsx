@@ -1,12 +1,12 @@
-import {WelcomeLogin} from "./hooks/welcomeLogin/index";
-describe("WelcomeLogin", () => {
+import {WelcomeLogin} from "../src/hooks/welcomeLogin";
+describe("welcomeLogin", () => {
 
   const mockAlert = jest.fn()
   window.alert = mockAlert
 
-  it("deve exibir alert com Welcome(bem vindo)", () =>{
+  it("bem vindo", () =>{
 
     WelcomeLogin()
-    expect(mockAlert).toBeCalledWith('Welcome')
+    expect(mockAlert).toBeCalledWith('bem vindo')
   })
 }) 
